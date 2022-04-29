@@ -1,0 +1,114 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+
+body{
+    background: white;
+}
+
+.container{
+    display:flex ;
+}
+
+nav{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    background: white;
+    width: 280px;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+
+.logo{
+    text-align: center;
+    display: flex;
+    margin: 10px 0 0 10px;
+
+}
+
+.logo span{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+a{
+    position: relative;
+    color: blueviolet;
+    font-size: medium;
+    display:table;
+    width: 280px;
+    padding: 5%;
+
+}
+
+na .bi{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+
+a:hover{
+    background: wheat;
+}
+
+
+/*main*/
+
+.main{
+    position: relative;
+    padding: 20px;
+    width: 100%;
+}
+
+.main-titel{
+    text-align: center;
+    width: 100%;
+}
+
+.main-ansicht{
+    display: flex;
+    margin-top: 1em;
+}
+
+.main-ansicht .card{
+    width: 25%;
+    margin: 10px;
+    background: white;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 20px 35px rgba(0,0,0, 0.1);
+}
+
+.main-ansicht .card h2{
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+.main-ansicht .card i{
+    font-size: 22px;
+    padding: 10px;
+}
