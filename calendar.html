@@ -1,8 +1,12 @@
 <!doctype html>
-<html lang="de">
+<html>
 
 <head>
-
+    <title>Kalender</title>
+    <meta name="description" content="Our first page">
+    <meta name="keywords" content="html tutorial template">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="dashboardstyle.css" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,27 +19,12 @@
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script type="text/javascript" src="customscript.js" ></script>
-
-    <script>
-       $(document).ready(function(){
-            $("#clickme").click(function () {
-                $("#date").toggle("slow", function () {
-                    
-                });
-            });
-        });
-    </script>
-
-
-    
-    <title>Dashboard</title>
 </head>
 
 <body>
-   
-
+    
     <div class="container">
-        <nav aria-label="Main Navigation">
+        <nav>
             <ul>
                 <li><a href="../version1.html">
                         <span class="nav-item">Dashboard</span>
@@ -63,54 +52,16 @@
                    
             </ul>
         </nav>
+    
+
+
 
         <section class="main">
             <div class="main-titel">
-                <h1>Dashboard</h1>
-                    <div id="clickme">
-                     Uhrzeit und Datum
-                        <div id="date">
-                            <span id="hours">00</span>
-                            <span>:</span>
-                            <span id="minutes">00</span>
-                            <span>:</span>
-                            <span id="seconds">00</span>
-                            <span id="session">AM</span>
-                            <p></p>
-                            <span id="dd">00</span>
-                            <span>/</span>
-                            <span id="mm">00</span>
-                            <span>/</span>
-                            <span id="yy">00</span>
-                        </div>
-                    </div>
+                <h1>Kalender</h1>
             </div>
-            <div class="main-ansicht">
-                <div class="card">
-                    <i class="bi bi-card-image"></i>
-                 
-
-                    <h2>To Do's</h2>
-                </div>
-                <div class="card">
-                    <i class="bi bi-card-image"></i>
-                    <h2>Notizen</h2>
-                </div>
-                <div class="card">
-                    <i class="bi bi-card-image"></i>
-                    <h2>Wetter</h2>
-                </div>
-                <div class="card">
-                    <!--<i class="bi bi-card-image"></i>-->
-                    <img src="photos/hund.jpg" height="100px" width="150px">
-                    <h2>Galerie</h2>
-                </div>
-            </div>
-
         </section>
-      
     </div>
-
 
 
 
